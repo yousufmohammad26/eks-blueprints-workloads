@@ -1,4 +1,9 @@
 spec:
+  destination:
+    server: https://kubernetes.default.svc
+  source:
+    # <-- Change with your forked URL -->
+    repoURL: https://github.com/yousufmohammad26/eks-blueprints-workloads
+    targetRevision: main
   ingress:
-    host: 
-    type: alb
+    host: dev.example.com
